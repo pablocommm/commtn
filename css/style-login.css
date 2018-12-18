@@ -1,0 +1,76 @@
+/*
+   Style Login
+*/
+
+#login h1 a, .login h1 a {
+    background-image: url('../media/logo-trends-2.png');
+    height:50px;
+    width:320px;
+    background-size: 200px 31px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+
+body.login {
+    background-color:#1C1C33;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.login div#login p#backtoblog {
+    display: none;
+}
+
+body.login div#login {
+    width: 320px;
+    padding: 0;
+    margin: auto;
+    box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.070);
+    background: #fff;
+}
+
+body.login div#login p#nav {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#user_login,
+#user_pass , #wp-submit, .wp-core-ui 
+{
+    border: none;
+    box-shadow: none;
+}
+
+#wp-submit {
+    background: #ff0045;
+    color: #fff!important;
+}
+
+.privacy-policy-link {
+    color: #000
+}
+
+body.login div#login form#loginform p.forgetmenot {
+    display: none;
+}
+
+body.login div#login form#loginform p.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.login div#login form#loginform p.submit input#wp-submit, #wp-submit {
+    width: 100%;
+    text-shadow: none;
+    color: #0065a1;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    height: auto;
+}
+
+.login form {
+    box-shadow: none!important;
+}
