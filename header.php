@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <header>
 <div>
-    <?php do_action('head_ads') ?>
+    <!-- <?php do_action('head_ads') ?> -->
     <nav class="nav-extended theme container bg not-movile-container">
     <div class="nav-wrapper">
       <a href="<?php echo esc_url(home_url('/')); ?>" class="brand-logo"><img style="padding:10px" src="<?php echo get_template_directory_uri(); ?>/media/logo-trends.png"></a>
