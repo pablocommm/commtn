@@ -88,6 +88,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
     <header>
+
+    <div id="modalsearch" class="modal" style="overflow-y: initial;">
+            <nav class="white">
+                <div class="nav-wrapper z-depth-0 white container">
+                    <form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        <div class="input-field">
+                            <input style="padding-left: 2rem;" class="autocomplete center-align" id="search" type="search" placeholder="Buscar" name="s"
+                                autofocus required>
+                            <label class="label-icon grey-text text-darken-4 " for="search">
+                                <i class="material-icons grey-text text-darken-4">search</i>
+                            </label>
+                            <i class="material-icons modal-close">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        
 <div>
     <!-- <?php do_action('head_ads') ?> -->
     <nav class="nav-extended theme container bg not-movile-container">
@@ -100,6 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="https://twitter.com/trendnews"><i class="material-icons s twitter"></i></a></li>
         <li><a href="https://www.facebook.com/trendnewss/"><i class="material-icons s facebook"></i></a></li>
         <li><a href="https://www.youtube.com/channel/UCaTWaQxWEyBIpeA4cKgDSSA"><i class="material-icons s youtube"></i></a></li>
+
       </ul>
       
     </div>
@@ -114,12 +133,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   )
 );
 ?>
-
-
+    <li class="cat-item"><a class="modal-trigger" href="#modalsearch" style="height: 20px;line-height: 20px;position: relative;top: -19px;"><i class="material-icons">search</i></a><li>
 </ul>
 
     </div>
   </nav>
+
+
 
   <ul id="nav-mobile" class="sidenav">
 <?php wp_list_categories(
@@ -130,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 );
 ?>
 
-
+<li><div class="col s12"><?php get_search_form() ?></div></li>
 
         
 

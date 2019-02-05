@@ -37,6 +37,8 @@ function getlink() {
 (function ($) {
   $(function () {
 
+    $('.modal').modal();
+
     $('.sidenav').sidenav();
     $(document).ready(function () {
       $('.pushpin').pushpin({
@@ -68,6 +70,8 @@ function getlink() {
       $('.slider-carousel').carousel('next');
       setTimeout(autoplay, 4500);
     }
+
+
 
 
 
