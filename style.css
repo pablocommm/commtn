@@ -230,6 +230,52 @@ span.badge.new {
 }
 
 
+.carousel.slider-carousel .carousel-item {
+    width: 45%!important;
+}
+
+@media only screen and (max-width: 693px) {
+    .carousel.slider-carousel .carousel-item {
+        width: 100%!important;
+    }
+}
+
+.carousel.slider-carousel .carousel-item::after, .card-image::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(3, 25, 41, 0) 0, #031929 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+  }
+
+  .carousel.slider-carousel .title-carousel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "museo-sans",sans-serif;
+    color: #fff!important;
+    z-index: 9;
+    padding: 0 35px;
+  }
+
+  .carousel .card-image::after {
+    margin-top: -50px;
+    height: 50px;
+  }
+
+  .card .card-image .card-title {
+      z-index: 9;
+  }
+
+  .alm-btn-wrap .alm-load-more-btn {
+      background: #ff0045!important
+  }
+
 /* Colors ----------------------------- */
 
 .theme {

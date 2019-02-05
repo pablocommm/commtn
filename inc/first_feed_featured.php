@@ -4,7 +4,7 @@ $args = array(
   'numberposts' => '1',
   'post_status' => 'publish',
   'category' => '4314',
-  'offset' => '1'
+  'offset' => '5'
 );
 
 $recent_posts = wp_get_recent_posts($args);

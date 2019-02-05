@@ -58,6 +58,17 @@ function getlink() {
       fullWidth: true,
     });
 
+    $('.slider-carousel').carousel({
+      dist: 0,
+      fullWidth: true,
+      padding: 30,
+    });
+    autoplay();
+    function autoplay() {
+      $('.slider-carousel').carousel('next');
+      setTimeout(autoplay, 4500);
+    }
+
 
 
   }); // end of document ready

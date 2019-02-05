@@ -10,7 +10,7 @@
 
 get_header(); ?>
 
-<?php do_action('news_notify') ?>
+<!-- <?php do_action('news_notify') ?> -->
 
 <div class="row">
 
@@ -39,9 +39,9 @@ get_header(); ?>
         </div>
       </div>
 
-        <div class="col s12 theme-2 no-padding" style="margin-top:30px">
+        <!-- <div class="col s12 theme-2 no-padding" style="margin-top:30px">
         <?php do_action('gallery_feed') ?>
-      </div>
+      </div> -->
 
 
       <div class="col s12">
