@@ -252,7 +252,7 @@ span.badge.new {
 
   .carousel.slider-carousel .title-carousel {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     right: 0;
     font-weight: 600;
     text-align: right;
