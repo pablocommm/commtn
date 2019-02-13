@@ -276,6 +276,10 @@ span.badge.new {
       background: #ff0045!important
   }
 
+  .carousel .slider-carousel {
+      max-height: 230px!important;
+  }
+
 /* Colors ----------------------------- */
 
 .theme {
