@@ -10,7 +10,6 @@
 
 get_header(); ?>
 
-<!-- <?php do_action('news_notify') ?> -->
 
 <div class="row">
 
