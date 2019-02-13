@@ -39,45 +39,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?php wp_head();
     ?>
 
-
-  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-</script>
-
-<script>
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/CMN_300x250_1', [300, 250], 'div-gpt-ad-1542410105602-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.enableServices();
-  });
-</script>
-
-<script>
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/CMN_300x250_2', [300, 250], 'div-gpt-ad-1542410269065-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.enableServices();
-  });
-</script>
-
-<script>
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/CMN_728X90_2', [728, 90], 'div-gpt-ad-1542766506042-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.enableServices();
-  });
-</script>
-
-<script>
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/CMN_728x90_1', [728, 90], 'div-gpt-ad-1542766380946-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.enableServices();
-  });
-</script>
-
 </head>
 
 <body <?php body_class(); ?>>
