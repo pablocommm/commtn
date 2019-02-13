@@ -22,7 +22,7 @@ get_header(); ?>
 
         <div class="col s12 no-padding">
           <?php do_action('featured_feed') ?>
-          <?php do_action('TN_HOM'); ?>
+          <!-- <?php do_action('TN_HOM'); ?> -->
         </div>
         
 
