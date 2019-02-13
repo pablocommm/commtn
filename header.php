@@ -90,7 +90,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php wp_list_categories(
   array(
     'title_li' => '',
-    'exclude'             => '1,3,4314'
+    'exclude'             => '1,3,4314',
+    'orderby'    => 'count',
+    'order'      => 'DESC'
   )
 );
 ?>
@@ -107,6 +109,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   array(
     'title_li' => '',
     'exclude'             => '1',
+    'orderby'    => 'count',
+    'order'      => 'DESC'
   )
 );
 ?>

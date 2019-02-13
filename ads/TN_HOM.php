@@ -13,7 +13,7 @@ function TN_HOM_init() { ?>
 
 <script>
   googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/tnhom3', [728, 90], 'div-gpt-ad-1550089855561-0').addService(googletag.pubads());
+    googletag.defineSlot('/21751214561/tnhom3', [728, 90], 'div-gpt-ad-1550093189051-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.pubads().collapseEmptyDivs();
     googletag.enableServices();
@@ -27,8 +27,8 @@ function TN_HOM_init() { ?>
     ?>
 
 <!-- /21751214561/tnhom3 -->
-<div id='div-gpt-ad-1550089855561-0' style='height:90px; width:auto;'>
+<div id='div-gpt-ad-1550093189051-0' style='height:90px; width:728px;'>
 <script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1550089855561-0'); });
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1550093189051-0'); });
 </script>
 </div>
