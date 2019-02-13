@@ -27,7 +27,7 @@ function TN_HOM_init() { ?>
     ?>
 
 <!-- /21751214561/tnhom3 -->
-<div id='div-gpt-ad-1550089855561-0' style='height:90px; width:728px;'>
+<div id='div-gpt-ad-1550089855561-0' style='height:90px; width:auto;'>
 <script>
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1550089855561-0'); });
 </script>
