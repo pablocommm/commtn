@@ -25,7 +25,38 @@ get_header(); ?>
 
        
       <div class="center" style="margin-bottom:30px">
-        <?php do_action('home_after_feature_ads') ?>
+        
+<?php 
+            if ( is_front_page() && is_home() )  {
+              // Default HOM
+              echo'';
+            } elseif ( in_category( '2006' )) {
+              // TV
+              echo'';
+            } elseif ( in_category( '25' )) {
+              // ENTRETENIMIENTO
+              echo'';
+            } elseif ( in_category( '4' )) {
+              // VIRAL
+              echo'';
+            } elseif ( in_category( '44' )) {
+              // MODA
+              echo'';
+            } elseif ( in_category( '4700' )) {
+              // YOUTUBERS
+              echo'';
+            } elseif ( in_category( '4615' )) {
+              // LO MEJOR Y LO PEOR
+              echo'';
+            } elseif ( in_category( '14' )) {
+              // DEPORTES
+              echo'';
+            } else {
+              //Síguenos
+              echo'';
+            }
+?>
+
       </div>
 
 

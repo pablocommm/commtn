@@ -28,6 +28,39 @@ foreach ($recent_posts as $recent) {
 }
 wp_reset_query();
 ?>
+
+
 <div class="col s12">
-<?php do_action('second_side_ad') ?>
-</div>
+<?php 
+            if ( is_front_page() && is_home() )  {
+              // Default HOM
+              do_action('TN_HOM');
+            } elseif ( in_category( '2006' )) {
+              // TV
+              echo'';
+            } elseif ( in_category( '25' )) {
+              // ENTRETENIMIENTO
+              echo'';
+            } elseif ( in_category( '4' )) {
+              // VIRAL
+              echo'';
+            } elseif ( in_category( '44' )) {
+              // MODA
+              echo'';
+            } elseif ( in_category( '4700' )) {
+              // YOUTUBERS
+              echo'';
+            } elseif ( in_category( '4615' )) {
+              // LO MEJOR Y LO PEOR
+              echo'';
+            } elseif ( in_category( '14' )) {
+              // DEPORTES
+              echo'';
+            } else {
+              //Síguenos
+              do_action('TN_HOM');
+              //Ortros
+            }
+?>
+
+          </div>

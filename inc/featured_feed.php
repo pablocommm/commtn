@@ -1,5 +1,4 @@
 <div class="carousel slider-carousel">
-
 <?php
 $args = array(
   'numberposts' => '5',
@@ -18,7 +17,9 @@ foreach ($recent_posts as $recent) {
 }
 wp_reset_query();
 ?>
-
 </div>
 
-<?php do_action('TN_HOM'); ?>
+<div class="col s12">
+<?php do_action('TN_HOM_1'); ?>
+</div>
+
