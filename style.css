@@ -54,6 +54,11 @@ html {
     width: auto!important
 }
 
+nav .brand-logo {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* helpers ----------------------------- */
 .vfluid {
     height: 100%
