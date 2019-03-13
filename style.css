@@ -348,14 +348,12 @@ span.badge.new {
 }
 
 .ad-container {
-    display: flex;
-    flex-wrap: wrap
+    
 }
 
 .ad {
     padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .ad::after {content: "Publicidad";
