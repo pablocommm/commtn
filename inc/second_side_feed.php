@@ -36,7 +36,7 @@ wp_reset_query();
 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
-              do_action('TN_HOM_3');
+              echo'';
             } elseif ( in_category( '2006' )) {
               // TV
               echo'';
