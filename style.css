@@ -353,7 +353,6 @@ span.badge.new {
 
 .ad {
     margin: 50px auto;
-    margin: 0 auto;
 }
 
 .ad::after {content: "Publicidad";
