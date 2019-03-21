@@ -37,28 +37,28 @@ wp_reset_query();
               do_action('TN_HOM_1');
             } elseif ( in_category( '2006' )) {
               // TV
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '25' )) {
               // ENTRETENIMIENTO
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '4' )) {
               // VIRAL
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '44' )) {
               // MODA
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '4700' )) {
               // YOUTUBERS
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '4615' )) {
               // LO MEJOR Y LO PEOR
-              echo'';
+              do_action('TN_HOM_3');
             } elseif ( in_category( '14' )) {
               // DEPORTES
-              echo'';
+              do_action('TN_HOM_3');
             } else {
               //Síguenos
-              echo'';
+              do_action('TN_HOM_3');
             }
 ?>
 
