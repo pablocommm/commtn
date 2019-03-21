@@ -31,10 +31,12 @@ wp_reset_query();
 
 
 <div class="col s12">
+
+<div class="col s12">
 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
-              do_action('TN_HOM');
+              do_action('TN_HOM_3');
             } elseif ( in_category( '2006' )) {
               // TV
               echo'';
@@ -58,9 +60,10 @@ wp_reset_query();
               echo'';
             } else {
               //Síguenos
-              do_action('TN_HOM');
-              //Ortros
+              echo'';
             }
 ?>
+
+</div>
 
           </div>
