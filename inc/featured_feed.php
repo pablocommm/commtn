@@ -23,7 +23,7 @@ wp_reset_query();
 
         <!-- /21751214561/TMG_01000000 -->
         <div class="ad-container">
-<div id='div-gpt-ad-1553125032556-0' class="ad center">
+<div id='div-gpt-ad-1553125032556-0' class="ad center hide-on-med-and-down">
 <script>
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1553125032556-0'); });
 </script>
