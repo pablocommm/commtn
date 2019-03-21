@@ -23,14 +23,6 @@ get_header(); ?>
           <?php do_action('featured_feed') ?>
         </div>
 
-        <!-- /21751214561/TMG_01000000 -->
-        <div class="ad-container">
-<div id='div-gpt-ad-1553125032556-0'>
-<script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1553125032556-0'); });
-</script>
-</div>
-</div>
 
         
 
