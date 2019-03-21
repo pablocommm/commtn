@@ -39,8 +39,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
   <!-- Ads web -->
-  
-  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+
+ <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
 <script>
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
@@ -53,6 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     googletag.enableServices();
   });
 </script>
+
 
 
   <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
