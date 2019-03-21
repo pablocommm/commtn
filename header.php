@@ -51,12 +51,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
 
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-</script>
-
 <script>
   googletag.cmd.push(function() {
     googletag.defineSlot('/21751214561/tnhom1', [300, 250], 'div-gpt-ad-1553127408561-0').addService(googletag.pubads());
@@ -65,11 +59,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
 
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-</script>
 
 <script>
   googletag.cmd.push(function() {
@@ -79,12 +68,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
 
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-</script>
-
 <script>
   googletag.cmd.push(function() {
     googletag.defineSlot('/21751214561/tnhom1', [[300, 600], [300, 250]], 'div-gpt-ad-1553128782198-0').addService(googletag.pubads());
@@ -92,7 +75,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     googletag.enableServices();
   });
 </script>
-
 
 
 
