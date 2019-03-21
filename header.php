@@ -62,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
   googletag.cmd.push(function() {
-    googletag.defineSlot('/21751214561/tnhom1', [[300, 600], [300, 250]], 'div-gpt-ad-1553128782198-0').addService(googletag.pubads());
+    googletag.defineSlot('/21751214561/tnhom1', [300, 250], 'div-gpt-ad-1553197024783-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
   });
