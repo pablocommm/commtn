@@ -40,10 +40,6 @@ get_header(); ?>
         </div>
       </div>
 
-        <!-- <div class="col s12 theme-2 no-padding" style="margin-top:30px">
-        <?php do_action('gallery_feed') ?>
-      </div> -->
-
 
       <div class="col s12">
         <?php do_action('second_feed') ?>

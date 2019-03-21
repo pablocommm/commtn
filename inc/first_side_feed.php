@@ -108,7 +108,7 @@ wp_reset_query();
 
 </div>
 
-
+<div class="col s12">
 <?php 
             if ( is_front_page() && is_home() )  {
               // Default HOM
@@ -140,5 +140,5 @@ wp_reset_query();
             }
 ?>
 
-
+</div>
 
