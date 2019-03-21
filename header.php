@@ -48,6 +48,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
   googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/TMG_01000000', [[1200, 270], [1024, 90], [728, 90], [900, 200], [970, 250], [1280, 100]], 'div-gpt-ad-1553125032556-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+
+  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
     googletag.defineSlot('/21751214561/tnhom1', [300, 250], 'div-gpt-ad-1549420913520-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs();
     googletag.enableServices();
