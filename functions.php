@@ -22,6 +22,17 @@ require_once(get_template_directory() . '/lib/main.php');
 define('DISALLOW_FILE_EDIT', true);
 
 
+
+/*-----------------------------------------------------------------------------------*/
+/* Estilos
+/*-----------------------------------------------------------------------------------*/
+
+
+add_action( 'wp_enqueue_scripts', 'comm_style' );
+function comm_style() {
+	wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/style.css', "1.0.0", false );
+}
+
 /*-----------------------------------------------------------------------------------*/
 /* Compress IMG
 /*-----------------------------------------------------------------------------------*/

@@ -29,9 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="<?php echo get_template_directory_uri(); ?>/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"
     />
     <link rel="stylesheet" href="https://use.typekit.net/tgg0hmb.css">
-    <link href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" rel="stylesheet" media="screen,projection"
-    />
-
+   
     <title>
         <?php wp_title(''); ?>
     </title>
