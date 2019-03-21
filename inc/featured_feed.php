@@ -20,6 +20,14 @@ wp_reset_query();
 </div>
 
 <div class="col s12">
-<?php do_action('TN_HOM_1'); ?>
+
+        <!-- /21751214561/TMG_01000000 -->
+        <div class="ad-container">
+<div id='div-gpt-ad-1553125032556-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1553125032556-0'); });
+</script>
+</div>
+</div>
 </div>
 
