@@ -48,6 +48,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
   googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/CMN_300x250_2', [300, 250], 'div-gpt-ad-1553127498124-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+
+  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
     googletag.defineSlot('/21751214561/tnhom1', [300, 250], 'div-gpt-ad-1553127408561-0').addService(googletag.pubads());
     googletag.pubads().enableSingleRequest();
     googletag.enableServices();
