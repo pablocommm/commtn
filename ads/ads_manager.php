@@ -37,6 +37,13 @@ function TN_HOM_5()
 add_action('TN_HOM_5', 'TN_HOM_5');
 
 
+function TN_HOM_6()
+{
+    include get_parent_theme_file_path('/ads/HOM/TN_HOM_6.php');
+}
+add_action('TN_HOM_6', 'TN_HOM_6');
+
+
 function TN_HOM_7()
 {
     include get_parent_theme_file_path('/ads/HOM/TN_HOM_7.php');
