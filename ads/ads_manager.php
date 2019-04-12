@@ -30,3 +30,16 @@ function TN_HOM_4()
 }
 add_action('TN_HOM_4', 'TN_HOM_4');
 
+function TN_HOM_5()
+{
+    include get_parent_theme_file_path('/ads/HOM/TN_HOM_5.php');
+}
+add_action('TN_HOM_5', 'TN_HOM_5');
+
+
+function TN_HOM_7()
+{
+    include get_parent_theme_file_path('/ads/HOM/TN_HOM_7.php');
+}
+add_action('TN_HOM_7', 'TN_HOM_7');
+

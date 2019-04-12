@@ -67,6 +67,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
 
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/tnsig1', [300, 250], 'div-gpt-ad-1555003440086-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/CMN_300x250_1', [300, 250], 'div-gpt-ad-1555003204943-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/tnsig2', [728, 90], 'div-gpt-ad-1555004420739-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
 
 
 
