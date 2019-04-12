@@ -51,7 +51,13 @@ get_header(); ?>
                 <div class="col s12">
                 <span class="entry-date"><?php echo get_the_date(); ?> -  <?php the_author(); ?> </span>
                 </div>
+                
                 <div class="col s12">
+                <?php do_action('TN_HOM_8'); ?>
+                </div>
+
+                <div class="col s12">
+                
                 <?php the_content();
                 ?>
                 </div>

@@ -50,3 +50,9 @@ function TN_HOM_7()
 }
 add_action('TN_HOM_7', 'TN_HOM_7');
 
+function TN_HOM_8()
+{
+    include get_parent_theme_file_path('/ads/HOM/TN_HOM_8.php');
+}
+add_action('TN_HOM_8', 'TN_HOM_8');
+

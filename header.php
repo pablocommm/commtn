@@ -94,6 +94,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
 </script>
 
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/21751214561/tnytb1', [300, 250], 'div-gpt-ad-1555080108446-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
 
 
 
