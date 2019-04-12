@@ -1,4 +1,4 @@
-<div class="ad-container">
+<div class="ad-container hide-on-small-only">
 
 <!-- /21751214561/tnsig2 -->
 <div id='div-gpt-ad-1555004420739-0' class="ad" style='height:90px; width:728px;'>
