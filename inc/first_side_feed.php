@@ -112,37 +112,7 @@ wp_reset_query();
 
 <div class="col s12">
 
-
-<?php 
-            if ( is_front_page() && is_home() )  {
-              // Default HOM
-              do_action('TN_HOM_5');
-            } elseif ( in_category( '2006' )) {
-              // TV
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '25' )) {
-              // ENTRETENIMIENTO
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '4' )) {
-              // VIRAL
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '44' )) {
-              // MODA
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '4700' )) {
-              // YOUTUBERS
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '4615' )) {
-              // LO MEJOR Y LO PEOR
-              do_action('TN_HOM_6');
-            } elseif ( in_category( '14' )) {
-              // DEPORTES
-              do_action('TN_HOM_6');
-            } else {
-              //Síguenos
-              do_action('TN_HOM_6');
-            }
-?>
+<?php if (function_exists ('adinserter')) echo adinserter (1); ?>
 
 </div>
 
