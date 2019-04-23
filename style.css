@@ -347,15 +347,11 @@ span.badge.new {
     text-align: center;
 }
 
-.ad-container {
-    
-}
-
-.ad {
+.ad, .code-block {
     margin: 50px auto;
 }
 
-.ad::after {content: "Publicidad";
+.ad::after, .code-block::after {content: "Publicidad";
     text-transform: uppercase;
     text-align: center;
     display: block;
