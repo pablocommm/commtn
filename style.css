@@ -351,6 +351,13 @@ span.badge.new {
     margin: 50px auto;
 }
 
+.code-block > div {
+    margin: 8px auto;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
 .ad::after, .code-block::after {content: "Publicidad";
     text-transform: uppercase;
     text-align: center;
