@@ -112,7 +112,7 @@ wp_reset_query();
 
 <div class="col s12">
 
-<?php if (function_exists ('adinserter')) echo adinserter (1); ?>
+<?php echo adinserter (1); ?>
 
 </div>
 
