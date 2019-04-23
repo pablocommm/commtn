@@ -24,10 +24,7 @@ get_header(); ?>
     <div class="content">
 
        
-      <div class="center" style="margin-bottom:30px">
-      
-
-      </div>
+    <?php if (function_exists ('adinserter')) echo adinserter (4); ?>
 
 
       
