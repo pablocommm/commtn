@@ -108,6 +108,9 @@ wp_reset_query();
 
 </div>
 
+<div class="col s12">
+  <?php do_shortcode('[adinserter block="1"]') ?>
+</div>
 
 
 
