@@ -67,6 +67,12 @@ wp_reset_query();
 
 <div class="col s12">
 
+<?php echo adinserter (1); ?>
+
+</div>
+
+<div class="col s12">
+
 <ul class="collection no-border">
     <li class="collection-item grey darken-4 white-text">
     Últimas noticias
@@ -110,10 +116,6 @@ wp_reset_query();
 
 
 
-<div class="col s12">
 
-<?php echo adinserter (1); ?>
-
-</div>
 
 
