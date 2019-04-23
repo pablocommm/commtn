@@ -26,7 +26,6 @@ get_header(); ?>
        
       <div class="center" style="margin-bottom:30px">
       
-        <?php do_action('TN_HOM_7'); ?>
 
       </div>
 
