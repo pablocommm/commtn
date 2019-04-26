@@ -22,7 +22,7 @@ get_header(); ?>
         <div class="col s12 no-padding">
           <?php do_action('featured_feed') ?>
 <div class="ad-container">
-          <div id='div-gpt-ad-1553125032556-0' class="hide-on-med-and-down ad">
+          <div id='div-gpt-ad-1553125032556-0' class="hide-on-med-and-down ad center">
 <script>
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1553125032556-0'); });
 </script>
