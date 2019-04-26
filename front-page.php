@@ -21,12 +21,12 @@ get_header(); ?>
 
         <div class="col s12 no-padding">
           <?php do_action('featured_feed') ?>
-          <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
-
-          <div id='div-gpt-ad-1553125032556-0' class="hide-on-med-and-down">
+<div class="ad-container">
+          <div id='div-gpt-ad-1553125032556-0' class="hide-on-med-and-down ad">
 <script>
 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1553125032556-0'); });
 </script>
+</div>
 </div>
 
         </div>
