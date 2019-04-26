@@ -21,6 +21,7 @@ get_header(); ?>
 
         <div class="col s12 no-padding">
           <?php do_action('featured_feed') ?>
+          <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
         </div>
 
 
